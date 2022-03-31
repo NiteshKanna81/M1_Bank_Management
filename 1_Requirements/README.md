@@ -1,7 +1,7 @@
 
 # Requirements
 ## Introduction
-* The Bank Management System is based on the concept of managing finincial account.
+* The Bank Management System is based on the concept of managing Bank account.
 * It can be used to Transfer amount from one account to another account through online.
 * This mini project contains limited features, but the essential one.
 * This Project is help full in managing Bank account by Depositing, Withdrawing, Viewing Bank details and transfering amount from one account to another account. 
@@ -14,47 +14,46 @@
  
  # Key Features of the project
  
- ## Students Records Management System: 
+ ## Bank Management System: 
+ ![Main_Page](https://user-images.githubusercontent.com/101510031/161099102-34599ee1-9c22-494b-bfc1-0798bf09b032.png)
  
-  ![Screenshot of srms ltts](https://user-images.githubusercontent.com/86227942/160672388-0728aa40-35b2-408e-96bc-684a864cc0f1.png)
-
-
- ### Add Student Details:
-  * It is used for adding the students information.
+ ### Login Account:
+  * It is used to log in to your account.
+  
+ ### Register Account:
+  * It is used to register a new account.
+  
+ ### View Account Details:
+  * It is used to view the account details of the User.
  
    #### This has the following details:
-        * Student ID
         * Name
+        * Account Number
         * Address
-        * Parent's Name
-        * class
-        * Phone Number
-   ![Screenshot for srms 2 ltts](https://user-images.githubusercontent.com/86227942/160678007-165c15a2-f720-45a9-a02f-58d197ef81f9.png)
+        * Phone number
+        * Account balance
+   ![View_Details](https://user-images.githubusercontent.com/101510031/161100674-d5e8b681-490d-44ae-8ddb-ddbe53b1c3f9.png)
 
- ### Search Student Details:
-#### The student Informations can be generated just by typing the student's ID.
-       * This shows the record or the information of the student ID that was entered.
+ ### Deposite Amount:
+       * This is used to Depost amount to the account.
  
- ![Screenshot for srms 3 ltts](https://user-images.githubusercontent.com/86227942/160679970-49a8bba7-ac9d-41a1-af36-7b8f70141a98.png)
+![Deposite_Amount](https://user-images.githubusercontent.com/101510031/161101279-9cd275a6-2c49-466b-9779-14e7a0fadcf0.png)
+ 
+ ### With Draw amount:
+      * This is used to withdraw amount form the account.
+ ![WithDraw_Page](https://user-images.githubusercontent.com/101510031/161101884-c6ecbd67-62a2-48ba-853b-2727a57a769f.png)
 
- 
- ### Modify Student Record:
- #### Any Information of any student in the record can be edited.
-      * Below image shows that updated "Address" of the student.
-  
- ![Screenshot (6) srms 4 ltts](https://user-images.githubusercontent.com/86227942/160681473-41079a93-21c0-4565-a447-a97d6b4ac595.png)
+ ### Transfer Amount:
+      * This option is used to transfer amount from one Account to another Account.
 
- ### Delete Student Record
- #### This option delets the information of the Student which is saved.
-      * Unwanted student record is deleted using this option.
- 
+### Change Password:
+      * This option is used to change the password of the account.
 
  
  
 
 ## Defining the System
-* System bascically takes input from the user and checks for the file, and then it prints the file. for ruunig the code it checks for the available code and run it in the compiler (i.e) GCC and prints the output.
-* For the suggestion part it takes suggestion from user and stores it in a file.
+* System bascically takes input from the user and enters the paticular function, and then it performance the function. For ruunig the code it checks for the available   code and run it in the compiler (i.e) GCC and prints the output.
 * The below image represents the above said informations.
 
 ![usecase diagram-1](https://user-images.githubusercontent.com/86227942/160700230-90ae153b-9e5c-4428-a7f7-d7801b681160.png)
@@ -63,15 +62,15 @@
 
 # The 4W's and a H 
 ## WHAT
-  * It is a simple Students Records Management System for managing students information.
+  * It is a simple Bank Management System for Managing Bank account.
 ## WHY
-  * The main objective of this project is that the students data that are stored can be easily edited ,removed and even updated by the user.
+  * The main objective of this project is to manage the Bank account throught online.
 ## WHO
-  * People who are in need of managing student datas and information,mainly the institutions require this Student Records Management System and they are the end users of this project.
+  * People who need to manage their Bank account, View their account details and account balance throught online are the end user.
 ## WHERE
-  * This project mainly comes in use in places like schools, colleges, instututes,and even in universities.
+  * This project mainly comes in use in places like ATM, Banks and even in the online Bank transaction system.
 ## HOW
-  * This project is implemented using "c program" and uses traditional file systems and not database system.
+  * This project is implemented using "c program" and uses traditional file systems and not database system. This project also make use of the structure where user defined variables are present.
  
  
 
@@ -106,17 +105,15 @@
 
 |  ID   | Description | Status (Implemented/In Future) |
 | ----- | ----------- | ------------------------------ |
-| HLR 1 |    System output must display the contents of the file.   |  Implemented  |
-| HLR 2 |    User can Execute sample codes.   | Implemented |
-| HLR 3 |    Student's ID is asked to display details.   | Implemented |
-| HLR 4 |    User shall be able to write their own code and execute.  | In Future |
-| HLR 5 |    User shall be able to access a learning leader board.   | In Future |
-| HLR 6 |    Login and Password Authentication system.    |  In Future |
+| HLR 1 |    Login and Password Authentication system.   |  Implemented  |
+| HLR 2 |    Withdrawal of money.   | Implemented |
+| HLR 3 |    Transfer Money.   | Implemented |
+| HLR 4 |    Administrative Control of all account.  | In Future |
+| HLR 5 |    View transaction histories of the account.   | In Future |
 
 ## Low Level Requirements:
 
 |  ID   | Description | Status (Implemented/ In Future) |
 | ----- | ----------- | ------------------------------- |
-| LLR 1 |    User shall be able to read the text files.  |  Implemented  |
-| LLR 2 |    user should be able to login | In Future |
-| LLR 3 |    user should be able to manage their data | In Future |
+| LLR 1 |    Account Information.  |  Implemented  |
+| LLR 2 |    Delete Account. | In Future |
