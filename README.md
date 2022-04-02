@@ -10,15 +10,17 @@ Codiga - Static Analysis         |  ![Codiga_Code_quality](https://api.codiga.io
 Folder             | Description
 -------------------| -----------------------------------------
 ![0_Cretificates](https://github.com/NiteshKanna81/M1_March_2022/tree/main/0_Certificates)   | Contains certifactes
-`2_Architecture`   | Documents specifying design details
-`3_Implementation` | All code and documentation
+![1_Requirements](https://github.com/NiteshKanna81/M1_March_2022/tree/main/1_Requirements)   | Documents detailing requirements and research
+![2_Architecture](https://github.com/NiteshKanna81/M1_March_2022/tree/main/2_Architecture) | Documents specifying design details
+![3_Implementation](https://github.com/NiteshKanna81/M1_March_2022/tree/main/3_Implementation) | All code and documentation
 
 ##  Features
 | Feature Id | Feature |
 | -----------|---------|
 |F_01| Login to System | |
-|F_02|Select Movie that is Avaliable |
-|F_03| Purchase a Ticket |
-|F_04| Summary of Ticket |
-|F_05| Cancel a Ticket |
+|F_02| Register new account |
+|F_03| View account details |
+|F_04| Deposite Amount |
+|F_05| Withdraw Amount |
+|F_06| Change Password |
 |F_06| Logout |
