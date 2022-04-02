@@ -3,7 +3,7 @@
 ## Code Quality Grade
 Folder        | description
 --------------| ----------------------------------------------
-Codacy - Static Code Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/status/svg)
+Codiga - Static Code Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/status/svg)
 Codiga - Static Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/score/svg)
 
 ## Folder Structure
