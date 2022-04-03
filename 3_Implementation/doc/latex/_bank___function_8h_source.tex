@@ -1,0 +1,58 @@
+\hypertarget{_bank___function_8h_source}{}\doxysection{Bank\+\_\+\+Function.\+h}
+\label{_bank___function_8h_source}\index{3\_Implementation/src/Bank\_Function.h@{3\_Implementation/src/Bank\_Function.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_BANK\_FUNCTION\_H\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_BANK\_FUNCTION\_H\_}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <ctype.h>}}
+\DoxyCodeLine{7 \textcolor{keywordtype}{int} check\_Name(\textcolor{keywordtype}{char} name[])\{}
+\DoxyCodeLine{8     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<strlen(name);i++)\{}
+\DoxyCodeLine{9         \textcolor{keywordflow}{if}(name[i]==\textcolor{charliteral}{' '})\{\}}
+\DoxyCodeLine{10         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(isalpha(name[i])==0)\{}
+\DoxyCodeLine{11             \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{12         \}}
+\DoxyCodeLine{13     \}}
+\DoxyCodeLine{14     \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{15 \}}
+\DoxyCodeLine{16 \textcolor{keywordtype}{int} check\_Acc\_no(\textcolor{keywordtype}{char} Acc\_no[])\{}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int} Acc\_len=strlen(Acc\_no);}
+\DoxyCodeLine{18     \textcolor{keywordflow}{if}(Acc\_len==12)\{}
+\DoxyCodeLine{19         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<Acc\_len;i++)\{}
+\DoxyCodeLine{20             \textcolor{keywordflow}{if}(isdigit(Acc\_no[i])==0)\{}
+\DoxyCodeLine{21                 \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{22             \}}
+\DoxyCodeLine{23         \}}
+\DoxyCodeLine{24     \}}
+\DoxyCodeLine{25     \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{26         \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{27     \}}
+\DoxyCodeLine{28     \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{29 \}}
+\DoxyCodeLine{30 \textcolor{keywordtype}{int} check\_Ph\_no(\textcolor{keywordtype}{long} \textcolor{keywordtype}{int} phno)\{}
+\DoxyCodeLine{31     \textcolor{keywordtype}{int} count=0;}
+\DoxyCodeLine{32     \textcolor{keywordtype}{long} \textcolor{keywordtype}{int} dup\_no=phno;}
+\DoxyCodeLine{33     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{34         dup\_no/=10;}
+\DoxyCodeLine{35         ++count;}
+\DoxyCodeLine{36     \} \textcolor{keywordflow}{while}(dup\_no!=0);}
+\DoxyCodeLine{37     \textcolor{keywordflow}{if}(count==10)\{}
+\DoxyCodeLine{38         \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{39     \}}
+\DoxyCodeLine{40     \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{41         \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{42     \}}
+\DoxyCodeLine{43 \}}
+\DoxyCodeLine{44 \textcolor{keywordtype}{int} check\_amount(\textcolor{keywordtype}{float} amount)\{}
+\DoxyCodeLine{45     \textcolor{keywordflow}{if}(amount>=1000.0)\{}
+\DoxyCodeLine{46         \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{47     \}}
+\DoxyCodeLine{48     \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{49         \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{50     \}}
+\DoxyCodeLine{51 \}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
