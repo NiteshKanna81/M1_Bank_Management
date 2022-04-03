@@ -6,7 +6,8 @@ Folder        | description
 Codiga - Static Code Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/status/svg)
 Codiga - Static Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/score/svg)
 Codacy | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/043fe3a769a247918affd6bca1859ff9)](https://www.codacy.com/gh/NiteshKanna81/M1_March_2022/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiteshKanna81/M1_March_2022&amp;utm_campaign=Badge_Grade)
-Build | [![C/C++ CI](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml)
+Build-linux | [![C/C++ CI](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml)
+Build-Windows | [![Build Windows](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Build_Windows.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Build_Windows.yml)
 Unity test | [![Unit Test](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Unit_Test.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Unit_Test.yml)
 
 ## Folder Structure
