@@ -56,8 +56,7 @@
 * System bascically takes input from the user and enters the paticular function, and then it performance the function. For ruunig the code it checks for the available   code and run it in the compiler (i.e) GCC and prints the output.
 * The below image represents the above said informations.
 
-![usecase diagram-1](https://user-images.githubusercontent.com/86227942/160700230-90ae153b-9e5c-4428-a7f7-d7801b681160.png)
-
+![Use_Case_Bank_Management](https://user-images.githubusercontent.com/101510031/161407290-8d14455c-2836-4496-ae83-8f8cd2c61dba.png)
 
 
 # The 4W's and a H 
