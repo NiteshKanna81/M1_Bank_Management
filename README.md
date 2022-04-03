@@ -1,4 +1,5 @@
 # Bank Management System
+![Bank_Management_Icon](https://user-images.githubusercontent.com/101510031/161411224-b7e7c5db-e8a7-42ff-994b-41a663a230d7.png)
 
 ## Code Quality Grade
 Folder        | description
