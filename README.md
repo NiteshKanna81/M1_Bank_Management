@@ -6,6 +6,7 @@ Folder        | description
 Codiga - Static Code Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/status/svg)
 Codiga - Static Analysis         |  ![Codiga_Code_quality](https://api.codiga.io/project/32399/score/svg)
 Build | [![C/C++ CI](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/c-cpp.yml)
+Unity test | [![Unit Test](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Unit_Test.yml/badge.svg)](https://github.com/NiteshKanna81/M1_March_2022/actions/workflows/Unit_Test.yml)
 
 ## Folder Structure
 Folder             | Description
